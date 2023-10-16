@@ -1,0 +1,146 @@
+/* stili generali della pagina */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.spaziature{
+    width: 100vw;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* sono solo stili per il debug */
+
+/* stili header */
+
+.menu{
+    min-height: 70px;
+    background-color: rgb(153, 241, 255);
+    padding: 10px;
+}
+
+nav{
+    background-color: orange;
+    min-height: 40px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 25%;
+    display: flex;
+    justify-content: left;
+}
+
+.login{
+    width: 25%;
+    display: flex;
+    justify-content: right;
+}
+
+#riferimenti{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titolo{
+    min-height: 400px;
+    background-color: blue;
+}
+
+.content{
+    background-color: rgb(255, 83, 255);
+    width: 50%;
+    min-height: 300px;
+}
+
+/* stili contenuto centrale */
+
+.card{
+    width: 70%;
+    min-height: 350px;
+    background-color: red;
+    display: flex;
+}
+
+.big{
+    width: 60%;
+    min-height: 350px;
+    background-color: rgb(0, 170, 227);
+}
+
+.small{
+    width: 40%;
+    min-height: 350px;
+    background-color: pink;
+}
+
+.order{
+    order: -1;
+}
+
+.color{
+    background-color: rgb(187, 187, 187);
+}
+
+#big-card{
+    width: 70%;
+    min-height: 500px;
+    background-color: green;
+}
+
+/* stili footer */
+
+footer{
+    background-color: rgb(23, 23, 23);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top: 1px solid white;
+}
+
+.row{
+    width: 70%;
+    min-height: 450px;
+    background-color: red;
+    display: flex;
+ }
+
+ .column{
+    width: 16.25%;
+    min-height: 420px;
+    background-color: rgb(0, 194, 194);
+    border: 1px solid white;
+ }
+
+ .column-big{
+    width: 35%;
+    min-height: 420px;
+ }
+
+ .last{
+    width: 70%;
+    min-height: 60px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
